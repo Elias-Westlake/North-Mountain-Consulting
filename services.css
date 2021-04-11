@@ -1,0 +1,124 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {scroll-behavior: smooth}
+
+li,a, p, button {font-family: "montserrat", sans-serif;
+              font-weight: 500;
+              font-size: 16px
+              color: lightsteelblue;
+              text-decoration: none
+}
+header {display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 12px 3%;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        width: 100%;
+        height: 86px;
+        background: rgba(255, 255, 255, 0.95);
+        margin-top: 1px;
+}
+.logo {
+  cursor:pointer;
+  margin-right: auto;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: lightsteelblue;
+}
+
+.nav_links li a {
+  transition: all 0.5s ease 0s;
+  color: darkslategrey;
+}
+
+.nav_links li a:hover {color: slategrey;
+}
+
+button {padding: 9px 25px;
+        background-color: dodgerblue;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.8s ease 0s;
+        margin-left: 15px;
+}
+
+button:hover { background-color: skyblue
+}
+
+/* END OF NAV BAR */
+
+.services-opener-text {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 30px;
+}
+
+
+.service-options {
+  display: flex;
+  justify-content:space-between;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+}
+
+.service-options {
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+.option-1-text {
+  text-align: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  line-height: 30px;
+}
+
+
+
+/* FOOTER */
+
+#footer-container {
+  min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+  text-align: center;
+  background-color: black;
+  position: relative;
+  height: 150px;
+  margin-top: -100px;
+  clear: both;
+}
+
+.footer-text {
+  text-align: center;
+  color: white;
+}
+
+/* FOOTER END */
+
+
+
+
+
+/* bottom for scrolling  */

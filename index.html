@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>North Moutain Consulting</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+      <header>
+    <img src="mountainlogo.png" alt="mountainlogo" class="logo" width="100px" height="100px">
+      <nav>
+        <ul class="nav_links">
+        <li><a href="index.html">Home</li>
+          <li><a href="services.html">Services</li>
+            <li><a href="404-error.html">Projects</li>
+              <li><a href="http://elias-westlake-resume.bubbleapps.io">About</li>
+                <li><a href="Socials.html">Follow Us</li>
+        </ul>
+      </nav>
+      <a class="contactbutton" href="Contact-Us.html"><button>Contact</button></a>
+      </header>
+
+<div class="home_page">
+
+      <img src="opener-background.png" alt="opener balck" width="100%" height="100%" class="opener-image">
+
+<br><br><br><br>
+
+  <div class="text-container">
+
+      <div class="mission-statement">
+        <p> <br>
+        Thank you for considering hiring North Mountain Consulting. We are a dedicated team of workers who
+        are here to boost your companies’ abilities. We specialize in digital marketing and are versed in
+        many others which can be seen in the link below - Services. Our Projects section is not
+        currently populated with previous clients as we are a start-up company.  Being one of our first
+        customers means that we will be devoting all of our time and energy towards your
+        business. We are a hungry, creative thinking group that are dedicated to excelling your organization.
+        We work with non-profits, local business and even personal branding needs.
+      <br>
+
+    <p>
+        <br>
+      <div class="slogan">
+        "Modern Marketing Solutions Through Old Fashion Hard Work"
+        <br><br><br>
+      </div>
+    </p>
+
+        </p>
+
+       </div>
+      </div>
+
+</div>
+
+  <br><br>
+
+<div class="row">
+  <div class="column">
+     <div class="container-project-services">
+       <a href="404-error.html"><img src="projects-image.svg" class="projects-image" alt="Projects" style="width:100%"></a>
+     </div>
+   </div>
+  <div class="column">
+    <div class="container-project-services">
+     <a href="services.html"><img src="services-image.svg" class="services-image" alt="Services" style="width:100%"></a>
+    </div>
+  </div>
+</div>
+
+
+
+<br><br>
+
+<div class="text-container">
+  <div class="mission-statement">
+    <br><br><br></div>
+  </div>
+</div>
+
+<br><br><br>
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="toronto-skyline.jpg" style="width:100%">
+      <div class="text">Modern Marketing Solutions</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="slide-image2.jpg" style="width:100%">
+      <div class="text">Through Old Fashion Hard Work</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="slide-image3.jpg" style="width:100%">
+      <div class="text">North Mountain Consulting</div>
+    </div>
+
+    </div>
+    <br>
+
+<!-- FIURE OUT HOW TO FADE INTO ONE ANOTHER -->
+    <div style="text-align:center">
+      <span class="pic-slide"></span>
+      <span class="pic-slide"></span>
+      <span class="pic-slide"></span>
+    </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("pic-slide");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+       setTimeout(showSlides, 5000);
+    }
+        // 1000 is one second basically
+    </script>
+
+
+
+
+<div class="footerID">
+
+<div id="footer-container">
+  <div id="main">
+  </div>
+</div>
+
+<footer id="footer">
+
+<p class="footer-text"><br>
+<strong>North Mountatin Consulting<br></strong><br>
+<a href="#" style="color:ghostwhite">  Contact Us<br></a>
+<a href="http://elias-westlake-resume.bubbleapps.io" style="color:ghostwhite">  About<br></a>
+<a href="#" style="color:ghostwhite">  Legal<br></a>
+<a href="#" style="color:ghostwhite">  &copyNMC<br></a>
+
+
+   </p>
+ </footer>
+</div>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

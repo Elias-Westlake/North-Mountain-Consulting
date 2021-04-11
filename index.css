@@ -1,0 +1,227 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .myslides {display: none;};
+  img {vertical-align: middle;}
+}
+
+html,body {scroll-behavior: smooth;
+          height: 100%
+}
+
+li,a, button {font-family: "montserrat", sans-serif;
+              font-weight: 500;
+              font-size: 16px
+              color: lightsteelblue;
+              text-decoration: none
+}
+
+/* NAVIGATION BAR  */
+
+header {display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        padding: 2px 3%;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        width: 100%;
+        height: 86px;
+        background: rgba(255, 255, 255, 0.9);
+        margin-top: 0px;
+}
+
+.logo , .services-text , .services-image{
+  cursor:pointer;
+  margin-right: auto;
+}
+
+.nav_links {list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: lightsteelblue;
+}
+
+
+.nav_links li a {
+  transition: all 0.5s ease 0s;
+  color: darkslategrey;
+}
+
+.nav_links li a:hover {
+  color: slategrey;
+}
+
+button {padding: 9px 25px;
+        background-color: dodgerblue;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.8s ease 0s;
+        margin-left: 15px;
+}
+
+button:hover {
+  background-color: skyblue
+}
+
+
+/* END OF NAVBAR */
+
+
+/* INTRO PARAGRAPH */
+
+
+/* END OF INTRO PARAGRAPH */
+
+
+/* SERVICES PICTURE LINKS */
+
+
+.container-project-services:hover {
+  opacity: 0.7;
+  transition: 0.5s ease;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 3px;
+}
+
+.column:hover{
+  width: 49.6%;
+  transition: 0.3s ease;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* END OF SERVICS LINK  */
+
+
+/* PROJECTS PICTURE  */
+
+
+/* END OF PROJECTS PITCURE */
+
+
+
+/* SLOGAN and INTRO PARAGRAPH*/
+
+.text-container{
+  display: flex;
+  justify-content:center;
+  background-color: ghostwhite;
+}
+
+.mission-statement{
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.slogan {
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 700
+}
+
+/* END OF SLOGAN */
+
+/* SLIDE-SHOW ATTEMPT */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+
+
+
+/* END OF SLIDESHOW */
+
+
+
+/* FOOTER */
+
+#footer-container {
+  min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+  text-align: center;
+  background-color: black;
+  position: relative;
+  height: 150px;
+  margin-top: -100px;
+  clear: both;
+}
+
+.footer-text {
+  text-align: center;
+  color: white;
+  line-height: 20px
+}
+
+/* END FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.v

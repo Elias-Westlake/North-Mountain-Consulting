@@ -1,0 +1,92 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+
+body{background-image: url("error-page-background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;}
+
+li,a, button {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px
+  color: lightsteelblue;
+  text-decoration: none
+}
+
+/* NAVIGATION BAR  */
+
+header {display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        padding: 2px 3%;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        width: 100%;
+        height: 86px;
+        background: rgba(255, 255, 255, 0.9);
+        margin-top: 0px;
+}
+
+.logo , .services-text , .services-image{
+  cursor:pointer;
+  margin-right: auto;
+}
+
+.nav_links {list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: lightsteelblue;
+}
+
+
+.nav_links li a {
+  transition: all 0.5s ease 0s;
+  color: darkslategrey;
+}
+
+.nav_links li a:hover {
+  color: slategrey;
+}
+
+button {padding: 9px 25px;
+        background-color: dodgerblue;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.8s ease 0s;
+        margin-left: 15px;
+}
+
+button:hover {
+  background-color: skyblue
+}
+
+.error-text {
+  align-content: center;
+  text-align: center;
+  weight: 700;
+  line-height: 40px;
+}
+
+
+.discliamer{
+  color: slategrey;
+}
+
+
+
+.s.
